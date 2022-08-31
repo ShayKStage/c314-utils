@@ -2,6 +2,12 @@
 name = "c314-utils"
 version = "0.1.0"
 edition = "2021"
+authors = ["314ShadePi <erikkirkegaardstage@gmail.com>"]
+description = "Small Rust utilities"
+license = "GPLv3"
+keywords = ["utilities", "utils-library", "util"]
+repository = "https://github.com/314ShadePi/c314-utils.git"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
