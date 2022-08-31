@@ -4,11 +4,11 @@
 
 ## Usage
 
-Add the following to the [dependencies] section of your Cargo.toml file. 
+Add the following to the [dependencies] section of your Cargo.toml file.
 
 ```toml
-c314-utils = "0.1.2" 
-``` 
+c314-utils = "0.1.2"
+```
 
 Now you can use it like this:
 
