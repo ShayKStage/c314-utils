@@ -13,7 +13,7 @@
 //!Now you can use it like this:
 //!
 //!```rust
-//!use c314-utils::prelude::ToStr;
+//!use c314_utils::prelude::ToStr;
 //!
 //!fn main() {
 //!    let converted_from_string_to_str = String::from("Hello World1").to_str();
