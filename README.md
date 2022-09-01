@@ -7,7 +7,7 @@
 Add the following to the [dependencies] section of your Cargo.toml file.
 
 ```toml
-c314-utils = "0.1.2"
+c314-utils = "0.1.4"
 ```
 
 Now you can use it like this:
