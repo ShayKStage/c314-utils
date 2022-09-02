@@ -1,6 +1,6 @@
 [package]
 name = "c314-utils"
-version = "0.1.4"
+version = "0.2.0"
 edition = "2021"
 authors = ["314ShadePi <erikkirkegaardstage@gmail.com>"]
 description = "Small Rust utilities"
