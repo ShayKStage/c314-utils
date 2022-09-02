@@ -1,1 +1,1 @@
-pub use crate::traits::to_str::ToStr;
+pub use crate::traits::to_static_str::ToStaticStr;

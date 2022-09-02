@@ -4,11 +4,11 @@
 //!
 //!## Usage
 //!
-//!Add the following to the [dependencies] section of your Cargo.toml file. 
+//!Add the following to the [dependencies] section of your Cargo.toml file.
 //!
 //!```toml
-//!c314-utils = "0.1.4" 
-//!``` 
+//!c314-utils = "0.1.4"
+//!```
 //!
 //!Now you can use it like this:
 //!
@@ -16,7 +16,7 @@
 //!use c314_utils::prelude::ToStr;
 //!
 //!fn main() {
-//!    let converted_from_string_to_str = String::from("Hello World1").to_str();
+//!    let converted_from_string_to_str = String::from("Hello World1").to_static_str();
 //!    println!("{}", converted_from_string_to_str);
 //!}
 //!```
@@ -30,11 +30,11 @@ pub mod traits;
 
 #[cfg(test)]
 mod tests {
-    use crate::prelude::ToStr;
+    use crate::prelude::ToStaticStr;
 
     #[test]
     fn t_to_str() {
-        let result = String::from("test").to_str();
+        let result = String::from("test").to_static_str();
         // I know it's doesn't really work, just look at the type inference above.
         assert_eq!(result, "test");
     }
