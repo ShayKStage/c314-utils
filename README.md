@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository has been archived because it was complete bullshit, that I for some dumbass reason decided to push to crates.io. 
+
 # c314-utils
 
 > Small Rust utilities
